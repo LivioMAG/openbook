@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Future Webdeck</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg-lights" aria-hidden="true">
+      <span class="light light-a"></span>
+      <span class="light light-b"></span>
+      <span class="light light-c"></span>
+      <span class="grid"></span>
+    </div>
+
+    <header class="topbar glass" aria-label="Präsentationssteuerung">
+      <div class="brand" id="companyBadge">—</div>
+      <nav aria-label="Abschnittsnavigation">
+        <ul id="navList" class="nav-list"></ul>
+      </nav>
+      <div class="progress-wrap" aria-label="Fortschritt der Präsentation">
+        <div id="progressBar" class="progress-bar"></div>
+      </div>
+    </header>
+
+    <main id="deck" class="deck" aria-live="polite"></main>
+
+    <template id="errorTemplate">
+      <section class="slide active error-slide" role="alert">
+        <div class="glass error-card">
+          <p class="eyebrow">Ladefehler</p>
+          <h1>Die Präsentationsdaten konnten nicht geladen werden.</h1>
+          <p>
+            Bitte prüfe, ob <code>content.json</code> vorhanden ist und der lokale Server korrekt läuft.
+          </p>
+        </div>
+      </section>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "title": "Team-Update 2026",
+    "subtitle": "Interaktives Webdeck für moderne Besprechungen",
+    "date": "2026-04-29",
+    "company": "Beispiel AG",
+    "theme": {
+      "accent": "#7c3aed",
+      "mode": "dark"
+    },
+    "heroStats": [
+      { "label": "Aktive Projekte", "value": "7" },
+      { "label": "Ø Auslastung", "value": "78%" },
+      { "label": "Offene To-dos", "value": "14" }
+    ]
+  },
+  "sections": [
+    {
+      "id": "teilnehmer",
+      "title": "Teilnehmer",
+      "type": "participants",
+      "eyebrow": "Anwesenheit",
+      "description": "Wer heute dabei ist und welche Rollen vertreten sind.",
+      "items": [
+        { "name": "Max Muster", "role": "Projektleiter", "department": "Bauleitung", "image": "" },
+        { "name": "Lea Schneider", "role": "Bauingenieurin", "department": "Planung", "image": "" },
+        { "name": "Jonas Keller", "role": "Polier", "department": "Ausführung", "image": "" },
+        { "name": "Sara Huber", "role": "Sicherheitsbeauftragte", "department": "Arbeitssicherheit", "image": "" }
+      ]
+    },
+    {
+      "id": "auslastung",
+      "title": "Auslastung",
+      "type": "workload",
+      "eyebrow": "Ressourcen",
+      "description": "Aktuelle Auslastung nach Bereichen.",
+      "items": [
+        { "label": "Projektleitung", "value": 86, "note": "Hohe Belastung durch parallele Abschlüsse" },
+        { "label": "Planung", "value": 74, "note": "Stabil, aber wenig Reserve" },
+        { "label": "Bauleitung", "value": 92, "note": "Kritische Phase vor Meilenstein" },
+        { "label": "Administration", "value": 58, "note": "Gut ausbalanciert" }
+      ]
+    },
+    {
+      "id": "projekte",
+      "title": "Projekte",
+      "type": "projects",
+      "eyebrow": "Portfolio",
+      "description": "Laufende Projekte, Status und nächste Schritte.",
+      "items": [
+        {
+          "name": "Projekt Alpha",
+          "status": "aktiv",
+          "description": "Umbau und Koordination der nächsten Bauetappe.",
+          "image": "",
+          "todos": [
+            { "text": "Offerte finalisieren", "priority": "hoch" },
+            { "text": "Termin mit Bauherrschaft bestätigen", "priority": "mittel" }
+          ]
+        },
+        {
+          "name": "Projekt Nova",
+          "status": "blockiert",
+          "description": "Lieferverzug bei zentralen Komponenten.",
+          "image": "",
+          "todos": [
+            { "text": "Ersatzlieferanten evaluieren", "priority": "kritisch" },
+            { "text": "Kundenkommunikation vorbereiten", "priority": "hoch" }
+          ]
+        },
+        {
+          "name": "Projekt Delta",
+          "status": "geplant",
+          "description": "Kickoff für die nächste Ausbauphase.",
+          "image": "",
+          "todos": [
+            { "text": "Budgetrahmen freigeben", "priority": "mittel" },
+            { "text": "Teamaufstellung definieren", "priority": "niedrig" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erfahrungsaustausch",
+      "title": "Erfahrungsaustausch",
+      "type": "text",
+      "eyebrow": "Learnings",
+      "description": "Erfahrungen aus aktuellen Projekten teilen.",
+      "content": "Was hat gut funktioniert? Wo gab es Reibung? Welche Erkenntnisse sollen wir ins nächste Projekt mitnehmen?",
+      "bullets": [
+        "Frühe Abstimmung reduziert Nachträge",
+        "Klare Verantwortlichkeiten beschleunigen Entscheidungen",
+        "Wöchentliche Kurzupdates verbessern Transparenz"
+      ],
+      "image": ""
+    },
+    {
+      "id": "lehrlingswesen",
+      "title": "Lehrlingswesen",
+      "type": "text",
+      "eyebrow": "Ausbildung",
+      "description": "Stand der Lernenden und nächste Entwicklungsschritte.",
+      "content": "Der Fokus liegt auf Begleitung, Feedback und gezielter Förderung im Alltag.",
+      "bullets": [
+        "Lernziele für das nächste Quartal prüfen",
+        "Praxisbegleitung stärker dokumentieren",
+        "Feedbackgespräche terminieren"
+      ],
+      "image": ""
+    },
+    {
+      "id": "arbeitssicherheit",
+      "title": "Arbeitssicherheit",
+      "type": "text",
+      "eyebrow": "Sicherheit",
+      "description": "Aktuelle Beobachtungen, Massnahmen und Prävention.",
+      "content": "Sicherheit bleibt ein aktiver Bestandteil jeder Projektbesprechung, nicht nur ein Pflichtpunkt.",
+      "bullets": [
+        "Beinaheunfälle aktiv melden",
+        "PSA konsequent kontrollieren",
+        "Sicherheitsrundgänge dokumentieren"
+      ],
+      "image": ""
+    },
+    {
+      "id": "varia",
+      "title": "Varia",
+      "type": "text",
+      "eyebrow": "Offene Punkte",
+      "description": "Weitere Themen, Hinweise und spontane Beiträge.",
+      "content": "Platz für zusätzliche Informationen, organisatorische Hinweise oder Themen aus dem Team.",
+      "bullets": [
+        "Termine abstimmen",
+        "Kommunikation verbessern",
+        "Nächste Sitzung vorbereiten"
+      ],
+      "image": ""
+    }
+  ]
+}
